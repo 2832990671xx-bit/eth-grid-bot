@@ -6,6 +6,9 @@ on:
     - cron: '*/30 0-15 * * *'
   workflow_dispatch:  # 支持手动触发
 
+permissions:
+  contents: write
+
 jobs:
   run-grid:
     runs-on: ubuntu-latest
