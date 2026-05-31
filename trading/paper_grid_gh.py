@@ -30,16 +30,13 @@ HIST_PATH  = os.path.join(BOT_DIR, HISTORY_FILE)
 
 # ── 1. 网格价格计算 (等差/等比) ─────────────────
 def calc_prices():
-    if SPACING       = "ARITHMETIC":
+    if SPACING == "GEOMETRIC":
         # 等比：低价区格距小，高价区格距大
-        # ratio = (GRID_MAX/GRID_MIN)^(1/(n-1))
         ratio = (GRID_MAX / GRID_MIN) ** (1.0 / (GRID_COUNT - 1))
-        prices = [round(GRID_MIN * (ratio ** i), 2) for i in range(GRID_COUNT)]
-        return prices
-    else:
-        # 等差：等间距
-        step = (GRID_MAX - GRID_MIN) / (GRID_COUNT - 1)
-        return [round(GRID_MIN + i * step, 2) for i in range(GRID_COUNT)]
+        return [round(GRID_MIN * (ratio ** i), 2) for i in range(GRID_COUNT)]
+    # 等差（默认）：等间距
+    step = (GRID_MAX - GRID_MIN) / (GRID_COUNT - 1)
+    return [round(GRID_MIN + i * step, 2) for i in range(GRID_COUNT)]
 
 
 # ── 2. 状态持久化 ──────────────────────────────
