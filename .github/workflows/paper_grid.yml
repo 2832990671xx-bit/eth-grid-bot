@@ -29,6 +29,7 @@ jobs:
           git config user.name "Grid Bot"
           git config user.email "bot@eth-grid.xyz"
           git add trading/paper_state.json
-          # Only commit if there are changes
-          git diff --staged --quiet || git commit -m "auto: update grid state [skip ci]"
+          git diff --staged --quiet && exit 0
+          git commit -m "auto: update grid state [skip ci]"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git push
