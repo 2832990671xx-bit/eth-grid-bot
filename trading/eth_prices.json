@@ -70,6 +70,17 @@
       "time": "2026-05-31T16:29:00.418216",
       "price": 0,
       "source_prices": {}
+    },
+    {
+      "time": "2026-05-31T18:28:30.613583",
+      "price": 2014.79,
+      "source_prices": {
+        "okx": 2018.08,
+        "okx_24h_change": 0.0,
+        "coingecko": 2014.79,
+        "cg_24h_change": -0.07451300395250392,
+        "cg_7d_change": 0
+      }
     }
   ],
   "alerts_sent": [
