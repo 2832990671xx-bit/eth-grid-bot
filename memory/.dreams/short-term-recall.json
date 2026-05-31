@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-31T08:58:45.831Z",
+  "updatedAt": "2026-05-31T10:35:53.567Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-05-17.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-17.txt:1:1",
@@ -15926,15 +15926,16 @@
       "endLine": 74,
       "source": "memory",
       "snippet": "- 开了两个 WSL 发行版：Ubuntu-24.04（当前运行）+ Ubuntu（旧版，已停） ## 模拟网格交易 - paper_grid.py 模拟盘在跑（ETH/USDT） - 网格范围 $1,600~$2,400，20格等比，格距 ~$40 - 自5月28日下午启动，仅成交1笔（卖出 @$2,018） - 当前价格 ~$2,007，总权益 ~$401 - 分析认为区间过宽格距太大导致成交少 - 计划优化：缩窄到 $1,800~$2,200，30格，格距 ~$13 ## 搜索配置 - DuckDuckGo 搜索被封（返回0结果），已配置 Tavily API key - Tavily key: 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 - 已搜索网格交易策略文章 ## 搜索/视频推荐 - 网格交易文章：binance.com网格教程、coinrule.com网格策略、wundertrading.com最佳参数 - 推荐YT视频：Grid Trading Strategy Full Guide 2025 - 建议改进：缩小区间、增加格数 ## 桌面快捷方式 - 创建了 openclaw.bat 启动脚本（Windows换行符格式已修正） - 路径：C:\\Users\\28398\\Desktop\\openclaw.bat - 用于双击启动 OpenClaw 网关并打开浏览器 ## YouTube 网格交易视频学习（5月29日晚） - 使用 OpenClaw 浏览器 + 无头 Chromium",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.4051227986812591,
+      "totalScore": 0.782025721669197,
       "maxScore": 0.4051227986812591,
       "firstRecalledAt": "2026-05-31T08:58:45.831Z",
-      "lastRecalledAt": "2026-05-31T08:58:45.831Z",
+      "lastRecalledAt": "2026-05-31T10:35:53.567Z",
       "queryHashes": [
-        "697b6ad89281"
+        "697b6ad89281",
+        "3a90c1d08741"
       ],
       "recallDays": [
         "2026-05-31"
@@ -15948,6 +15949,68 @@
         "binance.com网格教程",
         "coinrule.com网格策略",
         "wundertrading.com最佳参数"
+      ]
+    },
+    "memory:memory/2026-05-29.md:24:53": {
+      "key": "memory:memory/2026-05-29.md:24:53",
+      "path": "memory/2026-05-29.md",
+      "startLine": 24,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "- Tavily key: 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 - 已搜索网格交易策略文章 ## 搜索/视频推荐 - 网格交易文章：binance.com网格教程、coinrule.com网格策略、wundertrading.com最佳参数 - 推荐YT视频：Grid Trading Strategy Full Guide 2025 - 建议改进：缩小区间、增加格数 ## 桌面快捷方式 - 创建了 openclaw.bat 启动脚本（Windows换行符格式已修正） - 路径：C:\\Users\\28398\\Desktop\\openclaw.bat - 用于双击启动 OpenClaw 网关并打开浏览器 # 2026-05-29 记忆 ## 工作区合并（从旧版 Ubuntu-24.04→Ubuntu 迁移） - 从旧版 Ubuntu（已停止）VHDX 挂载并合并了工作区到 `/home/nh/.openclaw/workspace/` - 合并内容：DREAMS.md、trading/目录、okx脚本、venv、config、tasks、memory记录 - 旧版助记词/私钥已从 md 文件清理（只留脱敏版本） - 用户确认已保存助记词 ## 用户信息 - 用户自称\"老板\"，已更新 USER.md - 当前系统实际用户是 `wean`（uid 1000），/home/nh/ 只是旧迁移路径 - 开了两个 WSL 发行版：Ubuntu-24.04（当前运行）+ Ubuntu（旧版，已停） ##",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.38006779849529265,
+      "maxScore": 0.38006779849529265,
+      "firstRecalledAt": "2026-05-31T10:35:53.567Z",
+      "lastRecalledAt": "2026-05-31T10:35:53.567Z",
+      "queryHashes": [
+        "3a90c1d08741"
+      ],
+      "recallDays": [
+        "2026-05-31"
+      ],
+      "conceptTags": [
+        "网关",
+        "搜索/视频推荐",
+        "binance.com网格教程",
+        "coinrule.com网格策略",
+        "wundertrading.com最佳参数",
+        "openclaw.bat",
+        "ubuntu-24.04",
+        "home/nh"
+      ]
+    },
+    "memory:memory/2026-05-29.md:1:31": {
+      "key": "memory:memory/2026-05-29.md:1:31",
+      "path": "memory/2026-05-29.md",
+      "startLine": 1,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "# 2026-05-29 记忆 ## 工作区合并（从旧版 Ubuntu-24.04→Ubuntu 迁移） - 从旧版 Ubuntu（已停止）VHDX 挂载并合并了工作区到 `/home/nh/.openclaw/workspace/` - 合并内容：DREAMS.md、trading/目录、okx脚本、venv、config、tasks、memory记录 - 旧版助记词/私钥已从 md 文件清理（只留脱敏版本） - 用户确认已保存助记词 ## 用户信息 - 用户自称\"老板\"，已更新 USER.md - 当前系统实际用户是 `wean`（uid 1000），/home/nh/ 只是旧迁移路径 - 开了两个 WSL 发行版：Ubuntu-24.04（当前运行）+ Ubuntu（旧版，已停） ## 模拟网格交易 - paper_grid.py 模拟盘在跑（ETH/USDT） - 网格范围 $1,600~$2,400，20格等比，格距 ~$40 - 自5月28日下午启动，仅成交1笔（卖出 @$2,018） - 当前价格 ~$2,007，总权益 ~$401 - 分析认为区间过宽格距太大导致成交少 - 计划优化：缩窄到 $1,800~$2,200，30格，格距 ~$13 ## 搜索配置 - DuckDuckGo 搜索被封（返回0结果），已配置 Tavily API key - Tavily key: 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 - 已搜索网格交易策略文章 ## 搜索/视频推荐 - 网格交易文",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.37557929456233974,
+      "maxScore": 0.37557929456233974,
+      "firstRecalledAt": "2026-05-31T10:35:53.567Z",
+      "lastRecalledAt": "2026-05-31T10:35:53.567Z",
+      "queryHashes": [
+        "3a90c1d08741"
+      ],
+      "recallDays": [
+        "2026-05-31"
+      ],
+      "conceptTags": [
+        "ubuntu-24.04",
+        "home/nh",
+        "openclaw/workspace",
+        "dreams.md",
+        "trading/目录",
+        "旧版助记词/私钥已从",
+        "user.md",
+        "paper-grid.py"
       ]
     }
   }
