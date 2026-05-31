@@ -1,0 +1,30 @@
+{
+  "wallets": {
+    "0x7ae7e2cdd3bbd8be68029e0b9cdd0522a3d16e7b": {
+      "bal": 0.0,
+      "nonce": 0
+    },
+    "0xf977814e90da44bfa03b6295a0616a897441acec": {
+      "bal": 656224.1385,
+      "nonce": 19760
+    },
+    "0x47ac0fb4f2d84898e4d9e7b4dab3c24507a6d503": {
+      "bal": 454999.0602,
+      "nonce": 88
+    },
+    "0x2faf487a4414fe77e2327f0ede7986e0e6501c8c": {
+      "bal": 0.0,
+      "nonce": 0
+    },
+    "0x1db3439a222c451d1e2e46f8c0c86b341e6b05e5": {
+      "bal": 0.0,
+      "nonce": 0
+    },
+    "0x00000000219ab540356cbb839cbe05303d7705fa": {
+      "bal": 86147305.5074,
+      "nonce": 1
+    }
+  },
+  "last_run": "2026-05-31T17:30:12.056685",
+  "first_run": false
+}

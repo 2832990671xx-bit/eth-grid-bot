@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "okx-api": "^3.1.4",
+    "playwright-core": "^1.60.0"
+  },
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

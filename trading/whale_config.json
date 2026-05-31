@@ -1,0 +1,16 @@
+{
+  "rpc_url": "https://1rpc.io/eth",
+  "eth_threshold": 50,
+  "watch_addresses": [
+    {"name": "Justin Sun",         "address": "0x7aE7e2CDd3Bbd8bE68029E0B9CdD0522A3d16e7B"},
+    {"name": "Binance Hot Wallet", "address": "0xF977814e90dA44bFA03b6295A0616a897441aceC"},
+    {"name": "KuCoin Hot Wallet",  "address": "0x47ac0Fb4F2D84898e4D9E7b4Dab3C24507a6D503"},
+    {"name": "Bitfinex",           "address": "0x2fAF487A4414Fe77e2327F0eDe7986e0E6501C8c"},
+    {"name": "Wintermute",         "address": "0x1Db3439a222C451d1E2E46F8C0C86B341E6b05e5"},
+    {"name": "ETH2 Deposit",       "address": "0x00000000219ab540356cBB839Cbe05303d7705Fa"},
+    {"name": "我的钱包",            "address": "你的地址填这里"}
+  ],
+  "etherscan_api_key": "",
+  "telegram_bot_token": "",
+  "telegram_chat_id": ""
+}
