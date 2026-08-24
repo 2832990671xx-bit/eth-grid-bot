@@ -1390,10 +1390,10 @@
     "2183.33": "sell",
     "2200.0": "sell"
   },
-  "last_price": 2491.7,
+  "last_price": 2526.5,
   "start_time": "2026-05-30T08:20:00",
   "total_fees": 1.1002135807003486,
-  "peak_equity": 467.4637313316709,
+  "peak_equity": 468.12395614912043,
   "initial_value": 400.0,
   "grid_min": 1800,
   "grid_max": 2200,
